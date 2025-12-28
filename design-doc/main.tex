@@ -1,0 +1,91 @@
+\documentclass[11pt]{article}
+
+\def\doctitle{Analysis and Design of a Tripoli L2 Certification Rocket}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage[
+    pdftitle={\doctitle},
+    colorlinks=false,
+    allbordercolors={0 0 0},
+    citebordercolor={1 1 1}, % No border for citations %
+    pdfborderstyle={/S/U/W 1},
+    linktoc=all,
+]{hyperref}
+\usepackage[nameinlink]{cleveref} % For hyperlinked references
+\usepackage[letterpaper, margin=1in]{geometry}
+
+% Add bibliography in IEEE
+\usepackage[style=ieee]{biblatex}
+\addbibresource{bibliography.bib}
+
+% Add glossary entries
+\usepackage[acronym,nogroupskip,nonumberlist]{glossaries}
+\input{sections/glossary.tex}
+\makeglossaries
+
+% Remove paragraph indentation and use newline to separate instead. %
+\usepackage[parfill]{parskip}
+\setlength{\parindent}{0cm}
+
+\title{\doctitle}
+\author{Matteo Golin}
+\date{
+    Created: December 27, 2025 \\
+    Updated: \today
+}
+
+\begin{document}
+
+% TITLE
+
+\maketitle
+\pagebreak
+
+% ABSTRACT
+
+\input{sections/abstract.tex}
+\pagebreak
+
+% FRONT MATTER
+
+{
+	% No link styling in the TOC
+	\hypersetup{hidelinks}
+	\tableofcontents
+	\pagebreak
+	\listoffigures
+	\pagebreak
+	\listoftables
+}
+\pagebreak
+
+% INTRODUCTION
+
+\input{sections/introduction.tex}
+\input{sections/requirements.tex}
+
+% SECTIONS
+
+\pagebreak
+
+% GLOSSARY
+
+\printglossary[title={Glossary}]
+\printglossary[type=\acronymtype,title={Acronyms}]
+\pagebreak
+
+% BIBLIOGRAPHY
+
+\printbibliography
+\pagebreak
+
+% APPENDIX
+
+\input{appendix/index.tex}
+
+\end{document}

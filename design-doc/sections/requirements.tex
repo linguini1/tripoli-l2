@@ -1,0 +1,83 @@
+\section{Design Requirements}
+
+The primary requirements for the rocket are derived from the Tripoli L2
+certification requirements in \cite{tripoli-l2}, the L2 experience flight
+requirements as per \cite[\nopp 4]{tripoli-l3} and the Tripoli Unified Safety
+Code. \cite{tripoli-safety} These requirements are critical to meet in order to
+achieve the goal of this rocket, which is to obtain my L2 certification and
+complete the experience requirements towards an L3.
+
+The secondary requirements for the rocket are derived from the desire to lower
+the risk of failing the certification process and to reduce the amount of effort
+required for assembly, pre-flight preparation and post-flight recovery.
+
+The tertiary requirements for the rocket are derived from the desire to learn
+some new skills and have a somewhat cool certification rocket to be proud of.
+These requirements can be given up, just at my own disappointment.
+
+\subsection{Primary Requirements}
+
+\begin{enumerate}[label={R 1.\arabic*}]
+	\item The rocket must be of conventional design (stabilized by fins and
+	      recovered under parachutes) \cite[Airframe]{tripoli-l2}
+	\item The rocket must be not be entirely 3D printed \cite[Airframe]{tripoli-l2}
+	\item The rocket must be recovered by parachute \cite[Recovery]{tripoli-l2}
+	\item The rocket must have a descent rate less than 11 meters per second
+	      \cite[\nopp 11-1]{tripoli-safety}
+	\item The rocket's recovery deployment must be electronically controlled
+	      \cite[4]{tripoli-l3}
+	\item All components of the rocket must be connected and recovered in one
+	      assembly \cite[Non-Certification]{tripoli-l2}
+	\item The rocket must be powered by a single J, K or L motor \cite[Motor]{tripoli-l2}
+	\item The rocket must have a thrust to weight ratio of 5:1 or more \cite[\nopp 7-1.4]{tripoli-safety}
+	\item The rocket must have a stable ascent \cite[Certification Flight]{tripoli-l2}
+	\item The rocket must have a marked center of pressure \cite[7-1.2]{tripoli-safety}
+	\item The rocket must have a marked center of gravity \cite[7-1.2]{tripoli-safety}
+\end{enumerate}
+
+\subsection{Secondary Requirements}
+
+\begin{enumerate}[label={R 2.\arabic*}]
+	\item The rocket must be capable of recovery deployment both via motor
+	      ejection charge and electronic control, under the assumption that both
+	      fire during flight.
+	\item Continuity of deployment charge channels must be verifiable at the
+	      time of arming on the pad.
+	\item The rocket must have a GPS tracker so that its final landing location
+	      can be obtained while tracking its flight from the vertical launch area.
+	\item The deployment altimeter must be equipped with a barometer for
+	      higher accuracy altitude estimation.
+	\item The deployment system must be capable of firing deployment charges
+	      both at a specific altitude and after a fixed time since lift-off in
+	      the case of failure to detect altitude.
+	\item The GPS tracker frequency must be capable of being easily changed on
+	      the pad.
+	\item The deployment altimeter must log timestamped altitude measurements
+	      during flight.
+	\item The deployment altimeter must log timestamped deployment event
+	      signals.
+	\item All locations for connecting shock-cord which need to be accessed
+	      during pre-flight preparation must be easily accessible by hand.
+	\item Rail buttons must be capable of being installed using the provided
+	      flanges.
+	\item One rail button must be placed as low as possible on the rocket
+	      airframe, and the other must be placed at the expected center of
+	      gravity.
+	\item The GPS tracker must have a transmission range that exceeds the
+	      maximum expected drift of the rocket.
+	\item All 3D printed parts and assembly tools must be printable on a
+	      $220\times220\times250$ mm print bed.
+	\item The deployment electronics bay must have sufficient venting holes
+	      for access to the atmosphere during flight.
+	\item All separate volumes of the rocket must have sufficient venting holes
+	      to prevent unintended separation.
+\end{enumerate}
+
+\subsection{Tertiary Requirements}
+
+\begin{enumerate}[label={R 3.\arabic*}]
+	\item At least one part of the airframe should be made of a composite material
+	      (either fiberglass or carbon fiber is acceptable)
+	\item No fastener should be a Phillips head
+	\item The rocket should be easy to manufacture
+\end{enumerate}

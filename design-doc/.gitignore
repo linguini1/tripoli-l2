@@ -1,0 +1,20 @@
+# Build artifacts
+*.acn
+*.aux
+*.bcf*
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.glo
+*.ist
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.xml
+
+# Final document
+main.pdf
