@@ -1,0 +1,38 @@
+\section{Design Overview}
+
+This rocket will be a dual break, dual deploy rocket. It is technically only
+necessary to have a single-break, single-deploy system, but this design choice
+will teach me more about what's required for an L3 certification as well as
+reduce any ability for the rocket to drift after apogee.
+
+Since the rocket is dual break, the design for the avionics bay is going to be a
+switch-band. This is a common choice for dual-deploy rocket and also looks very
+simple to integrate (to me). Since the entire switch-band assembly is removable,
+it will be easy to fiddle with when installing the avionics and can be replaced
+entirely if I do something silly like drill the arming holes terribly wrong or
+discover I need to re-arrange the entire avionics section. The primary
+inspiration for the design the switchband avionics section is the design from
+Joe Barnard's \textit{Send It!} rocket. \cite[\nopp 4:14]{bps-sendit} I like
+the design choice of using Wago lever connectors for deployment charges to avoid
+a screwdriver \cite[\nopp 5:47]{bps-sendit}, but I will need to come up with a
+better solution than just epoxying the connectors to the bulkhead in case one
+needs to be replaced. The bulkheads will be pressure sealing in order to prevent
+the deployment charges from affecting the barometric altimeters inside the
+avionics bay, and also to make sure that the correct volume of the rocket is
+pressurized to deploy the chutes. Most of the configurations I have seen use a
+small lip on both bulkheads so that they rest on the switchband coupler tube. I
+have been told that using a o-ring to seal the pressure is overkill.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{assets/bps-bulkhead-lip.png}
+	\caption{Aluminum bulkhead for switchband with a visible lip for the coupler
+    tube \cite[\nopp 6:17]{bps-sendit}}
+\end{figure}
+
+For deployment electronics, I will not fly a redundant configuration if I can
+help it (the Tripoli L2 rules do not require it \cite{tripoli-l2}) in order to
+save costs, but I would like the avionics bay design to be capable of supporting
+a redundant configuration if necessary. This should mostly be an issue of wiring
+and extra space in the avionics bay, so it is unlikely to be a large
+undertaking.
