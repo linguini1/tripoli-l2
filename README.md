@@ -1,7 +1,7 @@
 # Tripoli L2 Certification Rocket
 
 <p align="center">
-    <img style="align:center" width="80%" src="./design-doc/assets/MissionPatch.png" />
+    <img style="align:center" width="40%" src="./design-doc/assets/MissionPatch.png" />
     <br/>
     Mission Patch
 </p>
@@ -11,7 +11,7 @@ rocket. My desire is to publicize the design files with a free-to-access intent
 such that others in the rocketry hobby can benefit from them.
 
 <p align="center">
-    <img style="align:center" width="80%" src="./design-doc/assets/cad-assembly.png" />
+    <img style="align:center" width="70%" src="./design-doc/assets/cad-assembly.png" />
     <br/>
     Tripoli L2 CAD Assembly
 </p>
