@@ -4,6 +4,8 @@ This repository contains the design files for my Tripoli L2 certification
 rocket. My desire is to publicize the design files with a free-to-access intent
 such that others in the rocketry hobby can benefit from them.
 
+![CAD Assembly](./design-doc/assets/cad-assembly.png)
+
 ## Design Document
 
 The primary design document is located in the [design-doc
