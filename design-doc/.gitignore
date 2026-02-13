@@ -15,6 +15,7 @@
 *.toc
 *.synctex.gz
 *.xml
+*SAVE-ERROR*
 
 # Final document
 main.pdf

@@ -33,7 +33,10 @@
 \setlength{\parindent}{0cm}
 
 \title{\doctitle}
-\author{Matteo Golin}
+\author{
+    Matteo Golin \\
+    \texttt{matteo.golin@gmail.com}
+}
 \date{
     Created: December 27, 2025 \\
     Updated: \today
@@ -45,7 +48,7 @@
 
 \maketitle
 \begin{center}
-    \includegraphics[width=0.7\linewidth]{assets/MissionPatch.png}
+    \includegraphics[width=0.4\linewidth]{assets/MissionPatch.png}
 \end{center}
 \pagebreak
 
@@ -70,10 +73,12 @@
 % INTRODUCTION
 
 \input{sections/introduction.tex}
-\input{sections/requirements.tex}
-\input{sections/overview.tex}
 
 % SECTIONS
+
+\input{sections/requirements.tex}
+\input{sections/overview.tex}
+\input{sections/design/design.tex}
 
 \pagebreak
 
