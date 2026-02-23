@@ -21,12 +21,28 @@ Deployment will use black-powder charges detonated by e-matches.
 
 ## Airframe
 
-The airframe will be made of composites. All of the body tubes will be either
-fiberglass or carbon fiber, but it is required that the avionics bay be
-fiberglass for radio transparency.
+Nosecone is PETG 3D-printed. Body tubes are fiberglass sock layup (6 layers,
+light, 3in). Fins will be plywood through-wall so that I can have better thrust
+transfer. Other materials are acceptable if I can acquire them.
 
-The nosecone can be PETG 3D printed or a fiberglass layup on a 3D printed mold
-(radio transparent).
+[Fiberglass sock](https://sollercompositesllc.com/product/natural-uncolored-3-light-fiberglass-sleeves/)
+
+I will have 2x 36" cardboard mandrels for the layup. The airframe body tubes
+are:
+* Forward: 14in
+* Aft: 26in
+* Switch-band exterior: 2in
+
+In order to waste less sock, I will have one 18in mandrel for the forward +
+switch-band layup. Then, I will use a 28in mandrel for the aft tube (inch of
+slack on either end). Then there is an 8in coupler section for which I will
+3D-print a 10in mandrel (to get the correct dimensions to be a coupler).
+
+$18 + 28 + 10 = 56$ inches of total tube length. $58 \times 6$ for 6 layers gives
+336 inches of sock required (28 ft). I will probably want to buy at least 30ft
+(since that gives a discount on Soller anyways), but I may also want to account
+for a complete screw-up on one of the tubes (let's say the coupler, since that
+will be my test-tube). That would amount to 420in or 35 ft of stock.
 
 ## Avionics
 
@@ -47,7 +63,6 @@ providing coordinates of the rocket's landing location over long-range radio.
 * [Eyebolts x4](https://www.allrockets.ca/Build/Swivels-Links/Eye-Bolt-1)
 * [Rail buttons](https://www.allrockets.ca/Build/Rail/Delrin-Rail-Gudes/1010-Airframe)
 * [Body tube (for layup) x2](https://www.allrockets.ca/Build/Body-Tubes/30)
-* [Coupler (for layup) x2](https://www.allrockets.ca/Build/Couplers/3.0)
 * [12in drogue](https://www.allrockets.ca/Build/Parachutes/Nylon-Red-12?cPath=19_212&)
 * [36in main](https://www.allrockets.ca/Build/Parachutes/36)
 * [Kevlar shock cord (?m)](https://www.allrockets.ca/Build/Shock-Cords/Kevlar-1500)
